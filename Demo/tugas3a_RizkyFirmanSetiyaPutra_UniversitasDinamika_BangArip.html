@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register Produk</title>
+</head>
+<body>
+    <form name="formproduk">
+        <table border="0" align="center" cellspacing="10">
+            <thead>
+                <th colspan="2" bgcolor="Gray" height="28">Form Register Produk</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nama Produk</td>
+                    <td>
+                        <input type="text" name="nmproduk">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Produk</td>
+                    <td>
+                        <select name="jnsproduk">
+                            <option value="" selected>-- Kategori Produk --</option>
+                            <option value="minuman">Minuman</option>
+                            <option value="makanan">Makanan</option>
+                            <option value="daging">Daging</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Harga</td>
+                    <td>
+                        <input type="text" name="price">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Stok</td>
+                    <td>
+                        <input type="text" name="stk">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td>
+                        <input type="text" name="foto">
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot bgcolor="Gray">
+                <th colspan="2" height="28">
+                    <input type="submit" name="proses" value="Kirim">
+                    <input type="reset" name="btlproses" value="Batal">
+                </th>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
